@@ -1,5 +1,7 @@
 # ✅ Todo List App
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/db71da4b-a72d-4f44-bd55-595d33326c09/deploy-status)](https://app.netlify.com/projects/x1todolist/deploys)
+
 A simple and clean Todo List web application built to help users track their daily tasks. Users can add, edit, delete, and mark tasks as complete. Completed tasks are displayed in a separate "Finished Tasks" section for better task management.
 
 ## 🔗 Live Demo
