@@ -70,22 +70,6 @@ function App() {
     setTodos(newTodos);
   };
 
-  // const handleVoiceCommand = () => {
-  //   const recognition = new (window.SpeechRecognition ||
-  //     window.webkitSpeechRecognition)();
-  //   recognition.lang = "en-US";
-  //   recognition.start();
-
-  //   recognition.onresult = (event) => {
-  //     const speechText = event.results[0][0].transcript;
-  //     setTodo(speechText);
-  //   };
-
-  //   recognition.onerror = (event) => {
-  //     console.error("Speech recognition error:", event.error);
-  //   };
-  // };
-
   if (isLoading) {
     return (
       <div className="flex justify-center items-center min-h-screen">
@@ -119,13 +103,6 @@ function App() {
             >
               Add
             </button>
-            {/* <button
-              type="button"
-              onClick={handleVoiceCommand}
-              className="bg-blue-500 hover:bg-blue-700 p-3 py-1 text-white rounded-md text-sm font-bold"
-            >
-              🎤 Voice Input
-            </button> */}
           </form>
         </div>
         <label className="flex items-center gap-2 my-4">
